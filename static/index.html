@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SignalOps</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">◉ SignalOps</div>
+    <div class="stats" id="stats"></div>
+    <button id="demo-btn">+ Simulate incident</button>
+  </header>
+
+  <main>
+    <aside>
+      <h2>Incidents</h2>
+      <ul id="incident-list"></ul>
+    </aside>
+
+    <section id="detail">
+      <div id="empty">Select an incident — or simulate one.</div>
+      <div id="incident-view" class="hidden">
+        <div id="incident-head"></div>
+        <h3>Pending actions</h3>
+        <div id="actions"></div>
+        <h3>Live investigation</h3>
+        <div id="feed"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
