@@ -2,4 +2,4 @@
 __pycache__/
 *.pyc
 .venv/
-signalops.db
+signalops.db*
